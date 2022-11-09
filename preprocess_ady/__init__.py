@@ -53,3 +53,36 @@ def get_urls(x):
 
 def remove_urls(x):
 	return utils._remove_urls(x)
+
+
+def remove_special_chars(x):
+	return utils._remove_special_chars(x)
+
+
+def remove_htmltags(x):
+    return utils._remove_htmltags(x)
+
+
+def remove_accented_text(x):
+    return utils._remove_accented_text(x)
+
+
+def remove_stopwords(x):
+    return utils._remove_stopwords(x)
+
+
+def convert_base(x):
+    return utils._convert_base(x)
+
+
+def remove_common_words(x,n=20):
+    return utils._remove_common_words(x,n=20)
+
+
+def remove_rare_words(x,n=20):
+    return utils._remove_rare_words(x,n=20)
+
+
+def spelling_correction(x):
+    return utils._spelling_correction(x)
+
